@@ -14,7 +14,7 @@ const ChatUI=()=>{
 
   return(
     <div>
-          <h5 className="text-red-600 text-2xl font-semibold">{msg}</h5>
+          <h5 className="text-red-600 text-3xl font-semibold">{msg}</h5>
           <input placeholder="enter text" onChange={(e)=>{setText(e.target.value)}}/>
           <button onClick={()=>{send()}}>
             send data
